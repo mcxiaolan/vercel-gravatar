@@ -1,0 +1,5 @@
+{
+    "rewrites": [
+      { "source": "/avatar/(.*)", "destination": "https://gravatar.com/avatar/$1?r=g" }
+    ]
+}

@@ -1,5 +1,9 @@
 {
     "rewrites": [
-      { "source": "/avatar/(.*)", "destination": "https://gravatar.com/avatar/$1?r=g" }
-    ]
+      { "source": "/(.*)", "destination": "https://gravatar.com/avatar/$1?r=g" }
+    ],
+    "redirects": [
+    { "source": "/", "destination": "https://guirlan.de", "permanent": false },
+    { "source": "/avatar/:match*", "destination": "/:match*", "permanent": false }
+  ]
 }

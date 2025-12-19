@@ -1,1 +1,1 @@
-# gravatar
+# 使用 Vercel 加速 Gravatar.
